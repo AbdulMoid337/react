@@ -56,7 +56,7 @@ export default function ToDoList() {
         if (todo.id === id) {
           return {
             ...todo,
-            isDone: !todo.isDone,
+            isDone: true,
           };
         } else {
           return todo;
